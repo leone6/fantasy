@@ -1,0 +1,36 @@
+.container {
+  overflow: auto;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+table {
+  table-layout: fixed;
+  border-spacing: 0;
+  border-collapse:separate;
+}
+
+thead th {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  top: 0;
+  font-size: 1.25rem;
+  border-bottom: 5px solid white;
+}
+
+thead th:first-child {
+  left: 0;
+  z-index: 1;
+}
+
+tbody th {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+  font-size: 1.25rem;
+  border-right: 5px solid;
+}
+
+.teams {
+  min-width: 80px;
+}

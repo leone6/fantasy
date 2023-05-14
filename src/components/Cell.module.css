@@ -1,0 +1,16 @@
+.bye {
+    background-color: darkred;
+}
+
+.light {
+    background-color: #1c1c1c;
+}
+
+.dark {
+    background-color: black;
+}
+
+td {
+    text-align: center;
+    font-size: 1rem;
+}
